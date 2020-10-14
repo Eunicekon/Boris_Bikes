@@ -1,4 +1,5 @@
 require 'DockingStation'
+# require 'docking_station'
 
 RSpec.describe DockingStation do
 
@@ -10,4 +11,10 @@ RSpec.describe DockingStation do
       expect(bike).to be_working
     end
   end
+
+  describe DockingStation do
+    it {is_expedted.to respond_to(:dock).with(1).argument}
+  end
+
 end
+
