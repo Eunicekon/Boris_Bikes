@@ -1,4 +1,5 @@
 require 'Bike'
+# require_relative 'Bike'
 
 RSpec.describe Bike do
 
